@@ -1,44 +1,43 @@
-import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="content-box">
+    <div className="min-h-screen bg-sky-950">
+      <header className="text-center block-24 p-10">
+        <div className="text-3xl">
           <p>
-          Hello! <br />
-          My Name is Lance Langlois
+          Hello! My Name is Lance Langlois
           </p>
         </div>
       </header>
 
-      <main className="Main-Content">
-        <div className="content-box">
+      <main className="text-center block-24 p-10">
+        <div className="">
           <p>
             About Me Box
           </p>
         </div>
         
-        <div className="content-box">
+        <div className="">
           <p>
             technical expertise box
           </p>
         </div>
 
-        <div className="content-box">
+        <div className="">
           <p>
             interest box
           </p>
         </div>
       </main>
 
-      <footer className="App-footer">
+      <footer className="text-center block-24 p-10">
           <p>
             information
           </p>
       </footer>
-    
-    </div>
+      </div>
+
   );
 }
 
